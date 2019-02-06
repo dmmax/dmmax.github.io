@@ -1,0 +1,7 @@
+main:
+  - title: "Блог"
+    url: /blog
+  - title: "Заметки программиста"
+    url: /coding
+  - title: "Обо мне"
+    url: /about
