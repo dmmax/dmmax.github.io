@@ -1,2 +1,146 @@
-breadcrumb_home_label : "Главная"
-breadcrumb_separator  : "|"
+# User interface text and labels
+
+  # English (default)
+  # -----------------
+  en: &DEFAULT_EN
+    page                       : "Page"
+    pagination_previous        : "Previous"
+    pagination_next            : "Next"
+    breadcrumb_home_label      : "dmmax"
+    breadcrumb_separator       : "|"
+    menu_label                 : "Toggle menu"
+    search_label               : "Toggle search"
+    toc_label                  : "On this page"
+    ext_link_label             : "Direct link"
+    less_than                  : "less than"
+    minute_read                : "minute read"
+    share_on_label             : "Share on"
+    meta_label                 :
+    tags_label                 : "Tags:"
+    categories_label           : "Categories:"
+    date_label                 : "Updated:"
+    comments_label             : "Leave a comment"
+    comments_title             : "Comments"
+    more_label                 : "Learn more"
+    related_label              : "You may also enjoy"
+    follow_label               : "Follow:"
+    feed_label                 : "Feed"
+    powered_by                 : "Powered by"
+    website_label              : "Website"
+    email_label                : "Email"
+    recent_posts               : "Recent posts"
+    undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+    comment_form_info          : "Your email address will not be published. Required fields are marked"
+    comment_form_comment_label : "Comment"
+    comment_form_md_info       : "Markdown is supported."
+    comment_form_name_label    : "Name"
+    comment_form_email_label   : "Email address"
+    comment_form_website_label : "Website (optional)"
+    comment_btn_submit         : "Submit comment"
+    comment_btn_submitted      : "Submitted"
+    comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+    comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+    loading_label              : "Loading..."
+    search_placeholder_text    : "Enter your search term..."
+    results_found              : "Result(s) found"
+    back_to_top                : "Back to top"
+  en-US:
+    <<: *DEFAULT_EN
+  en-CA:
+    <<: *DEFAULT_EN
+  en-GB:
+    <<: *DEFAULT_EN
+  en-AU:
+    <<: *DEFAULT_EN
+
+  # Spanish
+  # -------
+  es: &DEFAULT_ES
+    page                       : "Página"
+    pagination_previous        : "Anterior"
+    pagination_next            : "Siguiente"
+    breadcrumb_home_label      : "Inicio"
+    breadcrumb_separator       : "/"
+    menu_label                 :
+    search_label               :
+    toc_label                  : "Contenidos"
+    ext_link_label             : "Enlace"
+    less_than                  : "menos de"
+    minute_read                : "minuto de lectura"
+    share_on_label             : "Compartir"
+    meta_label                 :
+    tags_label                 : "Etiquetas:"
+    categories_label           : "Categorías:"
+    date_label                 : "Actualizado:"
+    comments_label             : "Dejar un comentario"
+    comments_title             : "Comentar"
+    more_label                 : "Ver más"
+    related_label              : "Podrías ver también"
+    follow_label               : "Seguir:"
+    feed_label                 : "Feed"
+    powered_by                 : "Powered by"
+    website_label              : "Sitio web"
+    email_label                : "Email"
+    recent_posts               : "Entradas recientes"
+    undefined_wpm              : "Parametro words_per_minute (Palabras por minuto) no definido en _config.yml"
+    comment_form_info          : "Su dirección de correo no será publicada. Se han resaltado los campos requeridos"
+    comment_form_comment_label : "Comentario"
+    comment_form_md_info       : "Markdown está soportado."
+    comment_form_name_label    : "Nombre"
+    comment_form_email_label   : "Dirección de E-mail"
+    comment_form_website_label : "Sitio web (opcional)"
+    comment_btn_submit         : "Enviar Commentario"
+    comment_btn_submitted      : "Enviado"
+    comment_success_msg        : "Gracias por su comentario!, Este se visualizará en el sitio una vez haya sido aprobado"
+    comment_error_msg          : "Lo sentimos, ha ocurrido un error al enviar su comentario. Por favor asegurese que todos los campos han sido diligenciados e intente de nuevo"
+    loading_label              : "Cargando..."
+  es-ES:
+    <<: *DEFAULT_ES
+  es-CO:
+    <<: *DEFAULT_ES
+
+  # Russian / Русский
+  # -----------------
+  ru: &DEFAULT_RU
+    page                       : "Страница"
+    pagination_previous        : "Предыдущая"
+    pagination_next            : "Следующая"
+    breadcrumb_home_label      : "dmmax"
+    breadcrumb_separator       : "|"
+    menu_label                 : "Выпадающее меню"
+    search_label               :
+    toc_label                  : "Содержание"
+    ext_link_label             : "Прямая ссылка"
+    less_than                  : "менее"
+    minute_read                : "мин на чтение"
+    share_on_label             : "Поделиться"
+    meta_label                 :
+    tags_label                 : "Метки:"
+    categories_label           : "Разделы:"
+    date_label                 : "Дата изменения:"
+    comments_label             : "Оставить комментарий"
+    comments_title             : "Комментарии"
+    more_label                 : "Читать далее"
+    related_label              : "Вам также может понравиться"
+    follow_label               : "Связаться со мной:"
+    feed_label                 : "RSS-лента"
+    powered_by                 : "Сайт работает на"
+    website_label              : "Сайт"
+    email_label                : "Электронная почта"
+    recent_posts               : "Свежие записи"
+    undefined_wpm              : "Не определён параметр words_per_minute в _config.yml"
+    comment_form_info          : "Ваш адрес электронной почты не будет опубликован. Обязательные поля помечены"
+    comment_form_comment_label : "Комментарий"
+    comment_form_md_info       : "Поддерживается синтаксис Markdown."
+    comment_form_name_label    : "Имя"
+    comment_form_email_label   : "Электронная почта"
+    comment_form_website_label : "Ссылка на сайт (необязательно)"
+    comment_btn_submit         : "Оставить комментарий"
+    comment_btn_submitted      : "Отправлено"
+    comment_success_msg        : "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
+    comment_error_msg          : "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова."
+    loading_label              : "Отправка..."
+    search_placeholder_text    : "Введите поисковый запрос..."
+    results_found              : "Найдено"
+  ru-RU:
+    <<: *DEFAULT_RU

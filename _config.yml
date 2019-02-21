@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme: "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
+#remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Site Settings
@@ -27,10 +27,13 @@ url: http://dmmax.me
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: dmmax/dmmax.github.io
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs: true
+breadcrumbs:
+  root:
+    hide: false  # show breadcrumbs on root/home page
+    image: false # Show image or title text
 words_per_minute: 120
 collections:
-  travel:
+  coding:
     output: true
     permalink: /:collection/:path/
 comments:
@@ -214,6 +217,7 @@ plugins:
 - jemoji
 - jekyll-include-cache
 - jekyll-archives
+- jekyll-breadcrumbs
 
 # mimic GitHub Pages with --safe
 whitelist:
