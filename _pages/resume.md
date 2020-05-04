@@ -13,14 +13,12 @@ title: "Back-end разработчик Димухаметов Максим"
  Вся реализация осуществляется с помощью популярных технологий:
  <ul>
     <li>SpringBoot (Spring Data, Spring LDAP, Spring Security и др.)</li>
+    <li>Akka (HTTP, Stream)</li>
     <li>Hibernate</li>
  </ul>
  Для реализации клиентской части, использую:
  <ul>
-    <li>ZK-framework</li>
     <li>Vaadin framework</li>
+    <li>ZK-framework</li>
     <li>html, js, Angular 7</li>
  </ul>
-
-## Заметки программиста
-Использование технологий, описанных выше, есть в заметках программиста  
