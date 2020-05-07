@@ -54,7 +54,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Макс Димухаметов"
+  name: "Максим Димухаметов"
   avatar: "/assets/images/logo.png"
   bio: "Back-end разработчик Java"
   location: "Берлин, Германия"
@@ -63,6 +63,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dmmax"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/max-dimukhametov-8a6149188"
 
 # Site Footer
 footer:
@@ -73,6 +76,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dmmax"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkein"
+      url: "https://www.linkedin.com/in/max-dimukhametov-8a6149188"
 encoding: "utf-8"
 
 # Conversion
