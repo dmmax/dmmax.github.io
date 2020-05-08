@@ -10,83 +10,24 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme: "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Site Settings
 locale: "ru-RU"
-github: #
-#title: "Блог Java/Kotlin программиста"
-title: "dmmax.me"
+title: "Про жизнь и работу в Германии"
 title_separator: "|"
-masthead_title: "dmmax"
-name: "Max"
-description: "Блог Java/Kotlin разработчика"
-url: http://dmmax.me
-baseurl: # the subpath of your site, e.g. "/blog"
+masthead_title: "dmmax.me"
+name: "Dimukhametov Maksim"
+description: "Жизнь и работа в Германии. Блог Java разработчика"
+url: http://dmmax.github.io
 repository: dmmax/dmmax.github.io
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs:
-  root:
-    hide: false  # show breadcrumbs on root/home page
-    image: false # Show image or title text
-words_per_minute: 120
-collections:
-  coding:
-    output: true
-    permalink: /:collection/:path/
-comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid:
-    num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
-  utterances:
-    theme: # "github-light" (default), "github-dark"
-staticman:
-  allowedFields: # ['name', 'email', 'url', 'message']
-  branch: # "master"
-  commitMessage: # "New comment by {fields.name}"
-  filename: # comment-{@timestamp}
-  format: # "yml"
-  moderation: # true
-  path: # "/_data/comments/{options.slug}" (default)
-  requiredFields: # ['name', 'email', 'message']
-  transforms:
-    email: # "md5"
-  generatedFields:
-    date:
-      type: # "date"
-      options:
-        format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
-reCaptcha:
-  siteKey:
-  secret:
-atom_feed:
-  path: # blank (default) uses feed.xml
-search: true #, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
+include: ['_pages', '.htaccess']
+# TODO dmmax: need to allow write comments
 # SEO Related
 google_site_verification: FNK9kIcJfeWtRLkCANGljkyNuF_HuhxObiDLGGHeSpA
 bing_site_verification: 2437E480C4CD67905F2F05B38D9D822B
 yandex_site_verification: 8c56a149dae09e20
-naver_site_verification:
 
 # Social Sharing
 twitter:
@@ -101,8 +42,7 @@ og_image: # Open Graph/Twitter default site image
 social:
   type: Person
   name: # If the user or organization name differs from the site's name
-  links:
-  - "https://vk.com/dmmax_me"
+  links: #
 
 # Analytics
 analytics:
@@ -114,66 +54,34 @@ analytics:
 
 # Site Author
 author:
-  name: "Макс Димухаметов"
-  avatar: "/assets/images/logo.png"
-  bio: "Back-end разработчик Java/Kotlin"
-  location: "Красноярск, Россия"
-  email: "dmmax.me@gmail.com"
+  name: "Максим Димухаметов"
+  avatar: "/assets/images/logo.jpeg"
+  bio: "Back-end разработчик Java"
+  location: "Берлин, Германия"
   links:
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/dmmax"
-  - label: "VK"
-    icon: "fab fa-fw fa-vk"
-    url: "https://vk.com/dmmax_me"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dmmax"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/max-dimukhametov-8a6149188"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:dmmax.me@gmail.com"
 
 # Site Footer
 footer:
   links:
-  - label: "Email"
-    icon: "fab fa-fw fa-envelope-square"
-    url: mailto:dmmax.me@gmail.com
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/dmmax"
-  - label: "VK"
-    icon: "fab fa-fw fa-vk"
-    url: "https://vk.com/dmmax_me"
-
-# Reading Files
-include: ['_pages', '.htaccess']
-exclude:
-- "*.sublime-project"
-- "*.sublime-workspace"
-- vendor
-- .asset-cache
-- .bundle
-- .jekyll-assets-cache
-- .sass-cache
-- assets/js/plugins
-- assets/js/_main.js
-- assets/js/vendor
-- Capfile
-- CHANGELOG
-- config
-- Gemfile
-- Gruntfile.js
-- gulpfile.js
-- LICENSE
-- log
-- node_modules
-- package.json
-- Rakefile
-- README
-- tmp
-- /docs # ignore Minimal Mistakes /docs
-- /test # ignore Minimal Mistakes /test
-keep_files:
-- .git
-- .svn
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: mailto:dmmax.me@gmail.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dmmax"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/max-dimukhametov-8a6149188"
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -181,7 +89,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -194,39 +101,34 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Krasnoyarsk
-
 
 # Plugins (previously gems:)
 plugins:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
-- jekyll-include-cache
-- jekyll-archives
-- jekyll-breadcrumbs
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
-- jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 
 # Archives
@@ -234,8 +136,7 @@ whitelist:
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
 #  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
+#  - Archive page should exist at path when using Liquid method or you can expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
@@ -245,30 +146,18 @@ category_archive:
 tag_archive:
   type: jekyll-archives
   path: /tags/
+# https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-  - categories
-  - tags
+    - categories
+    - tags
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
-
-# HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
@@ -278,22 +167,21 @@ compress_html:
 
 # Defaults
 defaults:
-# _posts
-- scope:
-    path: ""
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: # true
-    share: true
-    related: true
-# _travel
-- scope:
-    path: ""
-    type: travel
-  values:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      comments: # true
+      share: true
+      related: true
+  # _travel
+  - scope:
+      path: ""
+      type: travel
+    values:
       layout: single
       author_profile: false
       share: true
