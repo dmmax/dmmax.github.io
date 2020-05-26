@@ -10,8 +10,8 @@ tags: [ansible, devops]
 
 *Ansible* – это система управления конфигурациями и она помогает оркестрировать вашими серверами. Чаще всего, Ansible используется для 
 управления Linux-узлами, но также возможно и управление Windows (через WinRM соединение).
-Ansible может работать в двух режимах. Раздавать команды серверам (режим ***push***) или сервера будут отслеживать изменения с репозитория и 
-обновляться свою конфигурацию, используя ansible агент (режим ***pull***).
+Ansible может работать в двух режимах. Раздавать команды серверам (режим **push**) или сервера будут отслеживать изменения с репозитория и 
+обновляться свою конфигурацию, используя ansible агент (режим **pull**).
 
 ## Установка
 
@@ -78,5 +78,58 @@ web1 | SUCCESS => {
         "ansible_bios_version": "4.2.amazon",
 ...
 ```
-Список всех возможных модулей находится на [официальной документации] (https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html)
- 
+Также можно выполнить shell скрипт напрямую на машинке:
+```bash
+ansible -i hosts webservers -m shell -a "pwd"
+``` 
+Результат:
+```bash
+web1 | CHANGED | rc=0 >>
+/home/ec2-user
+```
+Сейчас можно сделать что-нибудь полезное: например установим apache.
+```bash
+ansible -i hosts webservers -m yum -a "name=httpd state=latest" -b
+```
+Результат:
+```bash
+web1 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    **"changed": true,**
+    "changes": {
+        "installed": [
+            "httpd"
+        ],
+        "updated": []
+    },
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Loaded plugins:
+...
+```
+Если мы запустим ту же команду, то ansible не будет устанавливать apache второй раз
+```bash
+web1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    **"changed": false,**
+    "changes": {
+        "installed": [],
+        "updated": []
+    },
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "All packages providing httpd are up to date",
+        ""
+    ]
+}
+```
+Это связано с тем, что ansible перед тем как выполнить задачу, проверяет состояние модуля и если его состояние такое же, как вы запрашиваете, 
+то он пропускает выполнение.
+
+Список всех возможных модулей находится в [официальной документации] (https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html)
