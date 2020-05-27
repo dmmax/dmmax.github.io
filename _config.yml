@@ -18,17 +18,17 @@ locale: "ru-RU"
 title: "Про жизнь и работу в Германии"
 title_separator: "|"
 masthead_title: "dmmax.me"
-name: "Dimukhametov Maksim"
+name: "Димухаметов Максим"
 description: "Жизнь и работа в Германии. Блог Java разработчика"
 url: http://dmmax.github.io
 repository: dmmax/dmmax.github.io
 include: ['_pages', '.htaccess']
-# TODO dmmax: need to allow write comments
 # SEO Related
-google_site_verification: FNK9kIcJfeWtRLkCANGljkyNuF_HuhxObiDLGGHeSpA
+google_site_verification: lTlOFSylQk1S_u8bY7WEsKhsixu0koTA8
 bing_site_verification: 2437E480C4CD67905F2F05B38D9D822B
 yandex_site_verification: 8c56a149dae09e20
 
+# TODO dmmax: need to allow write comments
 # Social Sharing
 twitter:
   username:
@@ -41,8 +41,10 @@ og_image: # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: Person
-  name: # If the user or organization name differs from the site's name
-  links: #
+  name: Максим Димухаметов
+  links:
+    - "https://www.linkedin.com/in/max-dimukhametov-8a6149188/"
+    - "https://github.com/dmmax"
 
 # Analytics
 analytics:
