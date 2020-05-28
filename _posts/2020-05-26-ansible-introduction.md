@@ -1,7 +1,9 @@
 ---
 title: "Введение в Ansible"
 description: "Описание Ansible. Установка Ansible и Python. Выполнение базовых Ansible ad-hoc команд."
+excerpt: "Устанавливаем Python и Ansible. Выполнение Ansible ad-hoc команд."
 tags: [ansible, devops]
+toc: true
 ---
 ## Задача
 Рассказать что такое Ansible, установка и попробовать простые командные строки для демонстрации работы.
