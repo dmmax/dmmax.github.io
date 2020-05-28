@@ -4,7 +4,6 @@ description: "Описание Ansible. Установка Ansible и Python. В
 excerpt: "Устанавливаем Python и Ansible. Выполнение Ansible ad-hoc команд."
 tags: [ansible, devops]
 toc: true
-last_modified_at:2020-05-28 06:14:00 +0200
 ---
 ## Задача
 Рассказать что такое Ansible, установка и попробовать простые командные строки для демонстрации работы.
