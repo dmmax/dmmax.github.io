@@ -135,4 +135,4 @@ web1 | SUCCESS => {
 Это связано с тем, что ansible перед тем как выполнить задачу, проверяет состояние модуля и если его состояние такое же, как вы запрашиваете, 
 то он пропускает выполнение.
 
-Список всех возможных модулей находится в [официальной документации] (https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html)
+Список всех возможных модулей находится в [официальной документации](https://docs.ansible.com/ansible/latest/modules/list_of_all_modules.html)
