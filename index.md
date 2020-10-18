@@ -1,4 +1,3 @@
 ---
-permalink: /posts
 layout: home
 ---

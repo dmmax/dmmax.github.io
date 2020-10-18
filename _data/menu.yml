@@ -1,0 +1,18 @@
+entries:
+  - title: me
+    url: false
+    entries:
+      - title: email
+        url: mailto:dmmax.me@gmail.com
+      - title: github
+        url: http://github.com/dmmax/
+      - title: keep in touch
+        url: false
+        entries:
+          - title: rss
+            url: /feed.xml
+
+  - title: posts
+    post_list: true
+    url: false
+    entries: false

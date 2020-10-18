@@ -1,5 +1,7 @@
 ---
 title: "Введение в Ansible"
+layout: post
+slug: intro
 description: "Описание Ansible. Установка Ansible и Python. Выполнение базовых Ansible ad-hoc команд."
 excerpt: "Устанавливаем Python и Ansible. Выполнение Ansible ad-hoc команд."
 tags: [ansible, devops]
