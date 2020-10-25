@@ -11,7 +11,8 @@ entries:
         entries:
           - title: rss
             url: /feed.xml
-
+      - title: quotes
+        url: /quotes
   - title: posts
     post_list: true
     url: false
