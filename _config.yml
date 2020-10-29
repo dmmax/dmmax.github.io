@@ -1,9 +1,9 @@
-title: dmmax
+title: dmmax me
 email: dmmax.me@gmail.com
-description: Жизнь и работа в Германии
 baseurl: ""
-url: https://dmmax.github.io
+url: https://dmmax.me
 github_username: dmmax
+description: Жизнь и работа в Германии
 
 permalink: /:slug.html
 
