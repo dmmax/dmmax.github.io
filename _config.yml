@@ -9,7 +9,7 @@ permalink: /:slug.html
 
 remote_theme: riggraz/no-style-please
 
-goat_counter: dmamx
+goat_counter: dmmax
 theme_config:
   appearance: "light"
   back_home_text: "Back"
