@@ -8,69 +8,69 @@ p {
     text-align: center
 }
 </style>
-![Потсдам. Александровка](/assets/images/2020/oct/IMG_6484.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6484.jpg" image_alt="Потсдам. Александровка" image_title="Потсдам. Александровка" %}
 
 ---
 {: data-content="Потсдам"}
 Один из пригородов Берлина – Потсдам. Очень легко добраться на S-Bahn и насладиться красотами, которые имеют свои историю с конца 18 века
 
-![Берлин Главный вокзал](/assets/images/2020/oct/IMG_6453.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6453.jpg" image_alt="Берлин Главный вокзал" image_title="Берлин Главный вокзал" %}
 
 Ждем S9 до Потсдама на главном вокзале Берлина. Без масок теперь никуда :(
 
-![1](/assets/images/2020/oct/IMG_6459.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6459.jpg" image_alt="" image_title="" %}
 
 Приехали и выдвинулись в сторону центра. Любуемся осенним городом
 
-![1](/assets/images/2020/oct/IMG_6460.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6460.jpg" image_alt="" image_title="" %}
 
 Выловили солнечные выходные, т.к. последнее время были одни дожди
 
-![1](/assets/images/2020/oct/IMG_6463.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6463.jpg" image_alt="" image_title="" %}
 
 Забежали попить кофе в Buena Vida Coffee Club. Обожаю Flat White в стеклянном стакане :) Ну и, конечно, круассан <3
 
-![1](/assets/images/2020/oct/IMG_6470.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6470.jpg" image_alt="" image_title="" %}
 
 Давно не видел такую золотую осень
 
-![1](/assets/images/2020/oct/IMG_6472.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6472.jpg" image_alt="" image_title="" %}
 
 Католическая церковь рядом с кофейней
 
-![1](/assets/images/2020/oct/IMG_6476.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6476.jpg" image_alt="" image_title="" %}
 
 Первый попавшийся дом в Александровке. Такое даже в России редко можно увидеть
 
-![1](/assets/images/2020/oct/IMG_6477.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6477.jpg" image_alt="" image_title="" %}
 
 Сидели рядом с музеем Александровки. Машуня – мой личный экскурсовод :) читала [статьи](https://www.dw.com/ru/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8F-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B2-%D0%BF%D0%BE%D1%82%D1%81%D0%B4%D0%B0%D0%BC%D0%B5/a-36585815)
 про это место. Очень познавательно
 
-![1](/assets/images/2020/oct/IMG_6482.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6482.jpg" image_alt="" image_title="" %}
 
 Самая старая православная церковь в Западной Европе 
 
-![1](/assets/images/2020/oct/IMG_6489.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6489.jpg" image_alt="" image_title="" %}
 
 Естественно, наши друзья, без которых наше маленькое путешествие было бы не таким насыщенным
 
-![1](/assets/images/2020/oct/IMG_6500.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6500.jpg" image_alt="" image_title="" %}
 
 Нормандская башня, которая была построена при Фридрихе II и рядом водный резервуар для снабжения фонтанов
 
-![1](/assets/images/2020/oct/IMG_6510.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6510.jpg" image_alt="" image_title="" %}
 
 Вид недалеко от башни. На заднем плане летняя королевская резиденция Сан-Суси
 
-![1](/assets/images/2020/oct/IMG_6501.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6501.jpg" image_alt="" image_title="" %}
 
 Выдвигаемся обратно
 
-![1](/assets/images/2020/oct/IMG_6516.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6516.jpg" image_alt="" image_title="" %}
 
 Машуня
 
-![1](/assets/images/2020/oct/IMG_6519.jpg)
+{% include lazyload.html image_src="/assets/images/2020/oct/IMG_6519.jpg" image_alt="" image_title="" %}
 
 Я
