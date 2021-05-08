@@ -3,11 +3,6 @@ layout: post
 description: Поехали из Берлина в Потсдам, посетили Александровку и сады недалеко от Сан-Суси
 title: 2020 Октябрь Потсдам
 ---
-<style>
-p {
-    text-align: center
-}
-</style>
 {% include lazyload.html image_src="/assets/images/2020/oct/IMG_6484.jpg" image_alt="Потсдам. Александровка" image_title="Потсдам. Александровка" %}
 
 ---
