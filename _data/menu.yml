@@ -5,15 +5,8 @@ entries:
       - title: email
         url: mailto:dmmax.me@gmail.com
       - title: github
-        url: http://github.com/dmmax/
-      - title: keep in touch
-        url: false
-        entries:
-          - title: rss
-            url: /feed.xml
-      - title: quotes
-        url: /quotes
-  - title: posts
-    post_list: true
-    url: false
-    entries: false
+        url: https://github.com/dmmax/
+      - title: blog
+        url: https://blog.dmmax.me
+      - title: wiki
+        url: https://wiki.dmmax.me
